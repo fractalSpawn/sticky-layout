@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica;
+}
+
+body {
+    display: table;
+}
+
+/* -------------------------------- */
+/* STKY OVERRIDES
+/* -------------------------------- */
+.stky-columns>.stky-left,
+.stky-columns>.stky-center,
+.stky-columns>.stky-right,
+.stky-columns>.stky-full {
+    padding: 10px;
+}
+
+.stky-columns>.stky-full {
+    background: #EFEFEF;
+    border-left: solid 1px #777;
+    border-right: solid 1px #777;
+}
+.stky-columns>.stky-left {
+    background: #9C3A3A;
+    width: 20%;
+    color: #DDD;
+}
+.stky-columns>.stky-center {
+    background: #FFAE35;
+    width: 60%;
+}
+.stky-columns>.stky-right {
+    background: #999E18;
+    width: 20%;
+    color: #EFEFEF;
+}
+
+/* -------------------------------- */
+/* APPLICATION LAYOUT FEATURES
+/* -------------------------------- */
+.appHeader,
+.appSubHeader,
+.appFooter {
+    padding: 10px;
+}
+
+.appHeader {
+    background: #0AF;
+    color: #FFF;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 0 10px 2px #000;
+}
+
+.appSubHeader {
+    min-height: 30px;
+    background: #DEDEDE;
+    position: relative;
+    z-index: 5;
+    box-shadow: 0 0 10px 2px #000;
+}
+
+.appFooter {
+    background: #000;
+    color: #FFF;
+}
